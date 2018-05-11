@@ -1,0 +1,31 @@
+{
+  "name": "package_upload",
+  "version": "1.0.1",
+  "description": "upload",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "antd": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bin1996/hb_upload.git"
+  },
+  "author": "hb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bin1996/hb_upload/issues"
+  },
+  "homepage": "https://github.com/bin1996/hb_upload#readme"
+}
